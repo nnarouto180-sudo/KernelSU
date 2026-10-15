@@ -28,7 +28,7 @@ ksud module config set my_key <<EOF
 multiline
 text value
 EOF
-
+compact
 # Or pipe from command
 echo "value" | ksud module config set my_key
 
